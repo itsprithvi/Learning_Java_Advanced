@@ -10,7 +10,7 @@ public class B extends A{
 //    }
 
     @Override
-    public String doSomething(String string) {
+    public void doSomething(String string) {
         System.out.println("Hello From B");
 
 //        return "";
