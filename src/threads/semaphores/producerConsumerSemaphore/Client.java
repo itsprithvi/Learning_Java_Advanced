@@ -11,7 +11,7 @@ public class Client {
 
         int maxSize  = 3;
         Semaphore p = new Semaphore(maxSize);
-        Semaphore c = new Semaphore(maxSize);
+        Semaphore c = new Semaphore(0);
 
         Queue<Object> shirts = new ConcurrentLinkedQueue<>();
 
